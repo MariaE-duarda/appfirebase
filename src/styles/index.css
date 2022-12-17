@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@100;200;300;400;500;600;700;800;900&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+*{
+    background-color: #202227;
+    color: white;
+    font-family: 'Poppins';
+}
+.container{
+    display: flex;
+    flex-direction: column;
+}
+
+h1{
+    margin-top: 100px;
+}
+
+.form{
+    text-align: center;
+}
+
+input{
+    width: 37%;
+    height: 25px;
+    margin-top: 5px;
+    padding-left: 10px;
+    background-color: white;
+}
+
+button{
+    width: 38%;
+    height: 30px;
+    margin-top: 5px;
+    font-weight: bold;
+    cursor: pointer;
+    background-color: #2f62b9;
+    border: none;
+    margin-bottom: 20px;
+}
+
+input, button{
+    border-radius: 5px;
+}
+
+.list{
+    margin-left: 29.5%;
+}
+
+li{
+    list-style-type: none;
+}
+
+.delete{
+    width: 20%;
+    height: 30px;
+    margin-bottom: 10px;
+}
+
+@media (max-width: 1130px) {
+    input{
+        width: 50%;
+    }
+    button{
+        width: 51%;
+    }
+    .list{
+        margin-left: 22%;
+    }
+}
+
+@media (max-width: 900px) {
+    .list{
+        margin-left: 20%;
+    }
+}
+
+@media (max-width: 800px) {
+    input{
+        width: 60%;
+    }
+    button{
+        width: 62%;
+    }
+    .list{
+        margin-left: 15%;
+    }
+
+}
+
+@media (max-width: 650px) {
+    .delete{
+        width: 30%;
+    }
+    .list{
+        margin-left: 12%;
+    }
+}
+
+@media (max-width: 500px) {
+    input{
+        width: 80%;
+    }
+    button{
+        width: 83%;
+    }
+    .list{
+        margin-left: 1%;
+    }
+}
+
+@media (max-width: 405px) {
+    .delete{
+        width: 50%;
+    }
+}
